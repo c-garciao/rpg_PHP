@@ -1,0 +1,151 @@
+@font-face {
+    font-family: tipo;
+    src: url(./Fuentes/Brotherhood.ttf);
+}
+
+@font-face {
+    font-family: science;
+    src: url(./Fuentes/ScienceFair.otf);
+}
+body{
+    background-image: url(../Imagenes/Fondos/fondo_lab.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor {
+    min-height: 40px;
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+a {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 110px;
+    padding: 60px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 10px solid rgba(0,0,0,0.3);
+    border-bottom-width: 10px;
+    width: 720px;
+    height: 160px;
+    text-decoration: none;
+    color:#ff3385;
+    padding-top: -20px;
+    text-shadow: 4px 4px black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%    
+}
+
+a:hover {
+    background-color: transparent;
+    border-color: #ff3385;
+}
+
+
+
+a:active {
+    background-color: #CCC;
+    border-color: rgba(0,0,0,0.9);
+}
+
+
+
+.boton1 {
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #ff3385;
+    -webkit-transition: 0.7s;;
+    transition: 0.7s;
+    cursor:pointer;
+    font-family: tipo; 
+}
+.boton1:hover {
+    background-image: url(../Imagenes/Fondos/dinero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: #ff3385;
+    color: transparent;
+    text-shadow: 4px 4px transparent; 
+}
+
+.boton2{
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #ff3385;
+    -webkit-transition: 0.7s;;
+    transition: 0.7s;;
+    cursor:pointer;
+    font-family: tipo;
+}
+.boton2:hover{
+    background-image: url(../Imagenes/Fondos/corazon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    text-shadow: 4px 4px transparent;
+}
+.boton3{
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #ff3385;
+    -webkit-transition: 0.7s;;
+    transition: 0.7s;
+    cursor:pointer;
+    font-family: tipo;
+}
+.boton3:hover{
+    background-image: url(../Imagenes/Fondos/punio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    text-shadow: 4px 4px transparent;      
+}
+.boton4{
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #ff3385;
+    -webkit-transition: 0.7s;;
+    transition: 0.7s;;
+    cursor:pointer;
+    font-family: tipo;  
+}
+.boton4:hover{
+    background-image: url(../Imagenes/Fondos/puerta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    text-shadow: 4px 4px transparent;      
+}
+.personaje{
+    width:50px;
+    display: inline-block;
+    position: relative;
+    float:center;
+    margin-left: 49%;
+}
+.info{
+    font-family: science;
+    color:#ff3385;
+    text-align: center;
+    font-size: 20px;
+    margin-top:-6px   
+}
+.error_vida{
+    color:red;
+    font-family: arial;
+    font-size:31px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: -22px;
+}
+img{
+    width : 154px;
+}

@@ -1,0 +1,108 @@
+@font-face {
+    font-family: science;
+    src: url(./Fuentes/ScienceFair.otf);
+}
+
+@font-face {
+    font-family: icon;
+    src: url(./Fuentes/ScienceIcons.ttf);
+}
+
+body {
+    background-image: url(../Imagenes/Fondos/fondo_menu.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden
+}
+
+i {
+    font-family: icon;
+    font-style: normal;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+img{
+    width:546px,5px;
+    height:387px;
+    margin:auto;
+    display:block;
+
+}
+
+
+#menu {
+    width:0px;
+    height:0px;
+
+    border-left: 200px solid transparent;
+    border-right:300px solid transparent;
+    border-top: 300px solid transparent;
+    border-radius: 20px;
+
+    position:relative;
+    margin:auto;
+
+    top:150px;
+    left:2px;  
+}
+
+
+
+
+
+#OP {
+    width:720px;
+    height:80px;
+
+    position:relative;
+    bottom:450px;
+    right:300px;
+
+
+    background: transparent;
+    background-size: 1px 300%;
+
+
+    text-align:center;
+    font-size:50px;
+    color: white;
+    font-family:science;
+    text-transform: uppercase;
+
+    -webkit-transition:0.2s;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+#OP:hover {
+    background: white;
+    color: #ff3385;
+    -webkit-transform:rotate(-1deg);
+    transform:rotate(-2deg);
+
+}
+
+#OP p {
+    position:relative;
+    top:5px;
+    right:4px;  
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom:20px;
+}
+/*----------CARLOS----------*/
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ff3385;
+}
+a:visited{
+    
+}

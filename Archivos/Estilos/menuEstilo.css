@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: title;
+    src: url(./Fuentes/Blade.TTF);
+}
+@font-face {
+    font-family: science;
+    src: url(./Fuentes/ScienceFair.otf);
+}
+
+
+body{
+    background-image: url("../Imagenes/Fondos/fondo_seleccion_personaje.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+	
+}
+
+
+
+h1 {
+	font-family: title;
+	color: #4666FF;
+	font-size: 80px;
+	text-shadow: 5px 5px powderblue;
+}
+
+
+fieldset {
+	border: 10px solid #4666FF;
+	box-shadow: 6px 6px 40px 40px powderblue;
+        margin-top: -25px;
+}
+
+legend {
+ 	padding: 0.6em 0.6em;
+  	border:10px solid #4666FF;
+  	color:#4666FF;
+  	font-size:180%;
+  	text-align:right;
+	font-family: science;
+	background-color:powderblue;
+	
+  }
+
+
+a {
+    text-decoration: none;
+    background-color: powderblue;
+    border: 6px solid #4666FF;
+    color: #4666FF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+a:hover {
+    background: white;
+    color: #4666FF;
+    -webkit-transform:rotate(-1deg);
+    transform:rotate(-2deg);
+
+}
+
+
+
+#contenedor{
+    margin: 3.7%;
+}
+#contenedor p, #contenedor h1{
+    text-align: center;
+}
+/*#contenedor img{
+    width: 100px;
+    margin: 2%;
+}*/
+.imagenes_p{
+    width: 180px;
+}
+
+.error{
+    font-family: calibri;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.vida1 {
+    display: inline;
+    margin-left: 480px;
+    border: 5px solid maroon;
+    box-shadow: 5px 5px 5px 5px firebrick;
+    padding: 8px;
+    margin-right: -420px;
+    font-family: science;
+    color:maroon;
+    text-transform: bold;
+    background-color: firebrick;
+    font-size: 16px;
+}
+.vida2 {
+    display: inline;
+    margin-left: 480px;
+    border: 5px solid seagreen;
+    box-shadow: 5px 5px 5px 5px yellowgreen;
+    padding: 8px;
+    margin-right: -420px;
+    font-family: science;
+    color:seagreen;
+    text-transform: bold;
+    background-color: yellowgreen;
+    font-size: 16px;
+}
+.vida3 {
+    display: inline;
+    margin-left: 480px;
+    border: 5px solid darkblue;
+    box-shadow: 5px 5px 5px 5px cyan;
+    padding: 8px;
+    margin-right: -420px;
+    font-family: science;
+    color:darkblue;
+    text-transform: bold;
+    background-color: cyan;
+    font-size: 16px;
+}

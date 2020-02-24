@@ -1,0 +1,73 @@
+@font-face {
+    font-family: title;
+    src: url(./Fuentes/Blade.TTF);
+}
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+    background-image: url("../Imagenes/Fondos/combate_fondo.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: title; 
+    font-size: 90px;
+    text-align: center;
+    color: #ff3385;
+    text-shadow: 7px 7px powderblue;
+}
+table{
+    margin-left: 38%;
+    border-collapse: collapse;
+    border: 7px solid white;
+    color:white;
+    width: 400px;
+    text-align: center;
+}
+th, td {
+    border: 4px solid white;
+    height: 25px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #ff3385; 
+}
+img{
+    margin-left: 45%;
+    margin-top: -30px;
+}
+#contenedor1{
+    float:left;
+    width: 30%;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+#contenedor2{
+    float:left;
+    width: 30%;
+    margin-top: 145px;
+    margin-left: 400px;
+}
+caption{
+    font-family: title;
+    font-size: 20px;
+}/*
+p.boton{
+    text-align: center;
+    margin-left: -700px
+}*/
+.nom_c{
+
+}
+td {
+    font-weight: bold;
+}
+.atq_c{
+    color:blue ;
+}
+.vid_c{
+    color: darkred;
+}
+.baj_c{
+    color: ;
+}
+p {
+    text-align: center;
+}
