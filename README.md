@@ -13,7 +13,7 @@ Proyecto creado para la asignatura de Implantación de Aplicaciones Web.
 Inicializar el servidor web y de BBDD. Crear y caragar los datos en la base de datos. Una vez hecho, acceder al servidor local y... ¡a disfrutar!
 # Aviso importante
 
-Es necesario crear la base de datos y cargar los elementos (se hace la primera vez, para ello acceder al menú en [index](BBDD/index.php))
+Es necesario crear la base de datos y cargar los elementos (se hace la primera vez, para ello acceder al menú  [Developer](BBDD/index.php))
 
 ## Built With
 
