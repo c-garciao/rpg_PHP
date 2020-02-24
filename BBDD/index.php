@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>Developer menu</title>
@@ -11,7 +10,7 @@
             <li><a href="borraBD.php">Borrar BD</a></li>
             <li><a href="./Tablas/borrarTablas.php">Borrar Tablas</a></li>
             <li><a href="./Tablas/crearTablas.php">Crear Tablas</a></li>
-            <li><a href="../index.php">Volver al menu</li>
+            <li><a href="../index.php">Volver al menu</a></li>
         </ul>
     </body>
 </html>
